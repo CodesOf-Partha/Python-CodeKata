@@ -1,0 +1,5 @@
+print("Enter three numbers: ")
+a=int(input())
+b=int(input())
+c=int(input())
+print("The maximum number is "+str(max(a,b,c)))
