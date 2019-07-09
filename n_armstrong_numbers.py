@@ -1,6 +1,7 @@
 start,end=input().split() 
 start=int(start)
 end=int(end)
+string=""
 for i in range(start,end):	
 	sum = 0  
 	temp = i  
@@ -9,4 +10,5 @@ for i in range(start,end):
 	   sum += digit ** 3  
 	   temp //= 10  
 	if i == sum:  
-	   print(i)
+	   string+=str(i)+" "
+print(string.strip())
