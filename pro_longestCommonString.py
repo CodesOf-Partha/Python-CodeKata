@@ -1,3 +1,4 @@
+#Longest Common string
 def longest(str1,str2):
         if(str1 in str2):
             return str1
