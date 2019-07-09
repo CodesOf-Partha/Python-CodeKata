@@ -1,5 +1,5 @@
 string=input()
 if string==string[::-1]:
-	print("Yes its a palindrome")
+	print("yes")
 else:
-	print("No its not a palindrome")
+	print("no")
