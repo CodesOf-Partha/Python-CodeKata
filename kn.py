@@ -1,3 +1,4 @@
+#KN problem
 array,s=input().split()
 a=list(map(int,input().split()))
 sum1=0
