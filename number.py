@@ -1,4 +1,4 @@
-num= input("Enter a number: ")
+num= input()
 a=0
 for i in num:
 	a=a+1
