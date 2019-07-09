@@ -1,4 +1,6 @@
-num=int(input("Enter a number: "))
+num=int(input())
+string=""
 for i in range(1,6):
 	fact=num*i
-	print(fact)
+	string+=str(fact)+" "
+print(string.strip())
