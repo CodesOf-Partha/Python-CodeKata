@@ -1,4 +1,4 @@
-#odd numbers
+#odd numbers between two numbers
 start,end=input().split()
 string=""
 start=int(start)
