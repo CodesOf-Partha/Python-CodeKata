@@ -1,5 +1,5 @@
-v=input("Enter a letter: ")
+v=input()
 if (ord(v)>=65 and ord(v)<=90) or (ord(v)>=97 and ord(v)<=122 ) :
-	print("The Entered letter is a alphabet")
+	print("Alphabet")
 else:
-	print("The Entered letter is not a alphabet")
+	print("No")
